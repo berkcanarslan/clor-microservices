@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Clor.Services.Catalog.props" />
+</Project>

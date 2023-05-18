@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clor.Services.Catalog", "Services\Catalog\Clor.Services.Catalog\Clor.Services.Catalog.csproj", "{6A63264E-78A0-4FB8-BD62-D031244700A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{70128688-5A72-4E7E-A7D1-51E8908A5074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clor.Shared", "Shared\Clor.Shared\Clor.Shared.csproj", "{BB931495-597D-445A-9D4E-C0EDF3D3C8F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{4607EC4C-9C73-4845-BEAB-1504272E1808}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB931495-597D-445A-9D4E-C0EDF3D3C8F7} = {70128688-5A72-4E7E-A7D1-51E8908A5074}
+		{6A63264E-78A0-4FB8-BD62-D031244700A6} = {4607EC4C-9C73-4845-BEAB-1504272E1808}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A63264E-78A0-4FB8-BD62-D031244700A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A63264E-78A0-4FB8-BD62-D031244700A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A63264E-78A0-4FB8-BD62-D031244700A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A63264E-78A0-4FB8-BD62-D031244700A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB931495-597D-445A-9D4E-C0EDF3D3C8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB931495-597D-445A-9D4E-C0EDF3D3C8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB931495-597D-445A-9D4E-C0EDF3D3C8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB931495-597D-445A-9D4E-C0EDF3D3C8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
