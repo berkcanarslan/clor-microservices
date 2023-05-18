@@ -17,4 +17,8 @@
       <Folder Include="Controllers" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Shared\Clor.Shared\Clor.Shared.csproj" />
+    </ItemGroup>
+
 </Project>

@@ -481,6 +481,16 @@
         "runtime": {
           "lib/net6.0/ZstdSharp.dll": {}
         }
+      },
+      "Clor.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Clor.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clor.Shared.dll": {}
+        }
       }
     }
   },
@@ -1454,11 +1464,17 @@
         "zstdsharp.port.0.6.2.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
+    },
+    "Clor.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../../Shared/Clor.Shared/Clor.Shared.csproj",
+      "msbuildProject": "../../../Shared/Clor.Shared/Clor.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "Clor.Shared >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.5",
       "MongoDB.Driver >= 2.19.1",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -1490,7 +1506,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\source\\ClorMicroservices\\Shared\\Clor.Shared\\Clor.Shared.csproj": {
+              "projectPath": "C:\\source\\ClorMicroservices\\Shared\\Clor.Shared\\Clor.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
