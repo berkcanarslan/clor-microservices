@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Clor.Services.Catalog.props" />
-</Project>

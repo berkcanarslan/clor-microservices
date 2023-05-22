@@ -364,3 +364,8 @@ FodyWeavers.xsd
 
 #idea
 .idea
+
+#Folders
+bin
+obj
+packages
