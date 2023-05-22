@@ -1,5 +1,4 @@
 ﻿using Clor.Services.Catalog.Dtos;
-using Clor.Services.Catalog.Models;
 using Clor.Services.Catalog.Services;
 using Clor.Shared.ControllerBases;
 using Microsoft.AspNetCore.Mvc;

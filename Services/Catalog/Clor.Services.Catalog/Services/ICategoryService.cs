@@ -1,5 +1,4 @@
 ﻿using Clor.Services.Catalog.Dtos;
-using Clor.Services.Catalog.Models;
 using Clor.Shared.Dtos;
 
 namespace Clor.Services.Catalog.Services;
