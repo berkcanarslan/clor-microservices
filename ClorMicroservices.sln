@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clor.Shared", "Shared\Clor.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{4607EC4C-9C73-4845-BEAB-1504272E1808}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{66A1454B-1BD1-4BA2-BE05-DB811EF131FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clor.IdentityServer", "IdentityServer\Clor.IdentityServer\Clor.IdentityServer.csproj", "{0DC5854A-9F08-4D3C-8E47-CFBDE6341D69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +20,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BB931495-597D-445A-9D4E-C0EDF3D3C8F7} = {70128688-5A72-4E7E-A7D1-51E8908A5074}
 		{6A63264E-78A0-4FB8-BD62-D031244700A6} = {4607EC4C-9C73-4845-BEAB-1504272E1808}
+		{0DC5854A-9F08-4D3C-8E47-CFBDE6341D69} = {66A1454B-1BD1-4BA2-BE05-DB811EF131FD}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6A63264E-78A0-4FB8-BD62-D031244700A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,5 +31,9 @@ Global
 		{BB931495-597D-445A-9D4E-C0EDF3D3C8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB931495-597D-445A-9D4E-C0EDF3D3C8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB931495-597D-445A-9D4E-C0EDF3D3C8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC5854A-9F08-4D3C-8E47-CFBDE6341D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC5854A-9F08-4D3C-8E47-CFBDE6341D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC5854A-9F08-4D3C-8E47-CFBDE6341D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC5854A-9F08-4D3C-8E47-CFBDE6341D69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
