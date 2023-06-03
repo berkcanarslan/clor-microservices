@@ -22,6 +22,7 @@ MongoDB container for the CatalogAPI with the 27017:27017 Ports
 
 ### IdentityDB:
 SQL container for the IdentityServer with the 1433:1433 Ports
+
 Password=Password12* (can be configured in appsettings)
 
 #### Tip: You can use portainer for docker management.
