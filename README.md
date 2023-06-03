@@ -5,7 +5,9 @@ An online course sales platform similar to udemy with microservice architecture
 
 ## Requirements
 .NET Core 3.1 Runtime
+
 .NET Core 7
+
 Docker
 
 ## Run Locally
