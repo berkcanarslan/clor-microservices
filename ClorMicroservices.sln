@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clor.Services.PhotoStock", "Services\PhotoStock\Clor.Services.PhotoStock\Clor.Services.PhotoStock.csproj", "{47D94549-F371-4C5D-BD56-75E8CD35FCAE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{C7430F6A-2285-48EB-BCBF-5B9A85FA0637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clor.Services.Basket", "Services\Clor.Services.Basket\Clor.Services.Basket.csproj", "{CEA532EF-5703-4DC0-BEBB-CCF9F1E603AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +30,7 @@ Global
 		{6A63264E-78A0-4FB8-BD62-D031244700A6} = {4607EC4C-9C73-4845-BEAB-1504272E1808}
 		{0DC5854A-9F08-4D3C-8E47-CFBDE6341D69} = {66A1454B-1BD1-4BA2-BE05-DB811EF131FD}
 		{47D94549-F371-4C5D-BD56-75E8CD35FCAE} = {4C134447-D1E3-41CB-96B5-05F18C54212F}
+		{CEA532EF-5703-4DC0-BEBB-CCF9F1E603AA} = {C7430F6A-2285-48EB-BCBF-5B9A85FA0637}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6A63264E-78A0-4FB8-BD62-D031244700A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +49,9 @@ Global
 		{47D94549-F371-4C5D-BD56-75E8CD35FCAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47D94549-F371-4C5D-BD56-75E8CD35FCAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47D94549-F371-4C5D-BD56-75E8CD35FCAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA532EF-5703-4DC0-BEBB-CCF9F1E603AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA532EF-5703-4DC0-BEBB-CCF9F1E603AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA532EF-5703-4DC0-BEBB-CCF9F1E603AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA532EF-5703-4DC0-BEBB-CCF9F1E603AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
